@@ -12,7 +12,7 @@ export const Footer = () => {
               <div className="w-10 h-10 rounded-xl bg-primary flex items-center justify-center">
                 <Leaf className="w-6 h-6 text-primary-foreground" />
               </div>
-              <span className="text-2xl font-bold">FoodShare</span>
+              <span className="text-2xl font-bold">SobraBoa</span>
             </div>
             <p className="text-background/70 leading-relaxed mb-6 max-w-md">
               Conectando pessoas e estabelecimentos no combate ao desperdício de alimentos. 
@@ -91,7 +91,7 @@ export const Footer = () => {
         {/* Bottom */}
         <div className="pt-8 border-t border-background/10 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-background/60 text-sm">
-            © 2025 FoodShare. Todos os direitos reservados.
+            © 2025 SobraBoa. Todos os direitos reservados.
           </p>
           <div className="flex items-center gap-2 text-sm text-background/60">
             <Leaf className="w-4 h-4 text-primary" />

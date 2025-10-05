@@ -14,7 +14,7 @@ export const Navbar = () => {
             <div className="w-10 h-10 rounded-xl gradient-primary flex items-center justify-center shadow-soft">
               <Leaf className="w-6 h-6 text-primary-foreground" />
             </div>
-            <span className="text-xl font-bold">FoodShare</span>
+            <span className="text-xl font-bold">SobraBoa</span>
           </div>
 
           {/* Desktop Menu */}

@@ -35,50 +35,14 @@ export const Navbar = () => {
 
           {/* CTA Buttons */}
           <div className="hidden md:flex items-center gap-3">
-            <Button variant="ghost">
+            <Button variant="ghost" onClick={() => window.location.href = '/selecionar-perfil'}>
               Entrar
             </Button>
             <Button variant="default" onClick={() => window.location.href = '/selecionar-perfil'}>
               Começar
             </Button>
           </div>
-
-          {/* Mobile Menu Button */}
-          <button
-            className="md:hidden"
-            onClick={() => setIsOpen(!isOpen)}
-          >
-            <Menu className="w-6 h-6" />
-          </button>
         </div>
-
-        {/* Mobile Menu */}
-        {isOpen && (
-          <div className="md:hidden py-4 border-t border-border">
-            <div className="flex flex-col gap-4">
-              <a href="#como-funciona" className="text-foreground hover:text-primary transition-smooth font-medium">
-                Como funciona
-              </a>
-              <a href="#doar" className="text-foreground hover:text-primary transition-smooth font-medium">
-                Doar
-              </a>
-              <a href="#alimentos" className="text-foreground hover:text-primary transition-smooth font-medium">
-                Alimentos
-              </a>
-              <a href="#impacto" className="text-foreground hover:text-primary transition-smooth font-medium">
-                Impacto
-              </a>
-              <div className="flex flex-col gap-2 pt-4 border-t border-border">
-                <Button variant="ghost" className="w-full">
-                  Entrar
-                </Button>
-                <Button variant="default" className="w-full" onClick={() => window.location.href = '/selecionar-perfil'}>
-                  Começar
-                </Button>
-              </div>
-            </div>
-          </div>
-        )}
       </div>
     </nav>
   );

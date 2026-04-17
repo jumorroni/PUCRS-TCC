@@ -1,10 +1,11 @@
 import { Navbar } from "@/components/Navbar";
-import { Hero } from "@/components/Hero";
+import { Home } from "@/components/Home";
 import { HowItWorks } from "@/components/HowItWorks";
 import { FoodListings } from "@/components/FoodListings";
 import { ImpactDashboard } from "@/components/ImpactDashboard";
 import { EducationalTips } from "@/components/EducationalTips";
 import { DonationTypes } from "@/components/DonationTypes";
+import { MapSection } from "@/components/MapSection";
 import { Footer } from "@/components/Footer";
 
 const Index = () => {
@@ -12,9 +13,10 @@ const Index = () => {
     <div className="min-h-screen">
       <Navbar />
       <main className="pt-16">
-        <Hero />
+        <Home />
         <HowItWorks />
         <DonationTypes />
+        <MapSection />
         <FoodListings />
         <ImpactDashboard />
         <EducationalTips />

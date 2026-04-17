@@ -116,12 +116,6 @@ export const FoodListings = () => {
             </Card>
           ))}
         </div>
-
-        <div className="text-center mt-12">
-          <Button variant="outline" size="lg">
-            Ver todos os alimentos disponíveis
-          </Button>
-        </div>
       </div>
     </section>
   );

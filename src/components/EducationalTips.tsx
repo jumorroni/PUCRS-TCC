@@ -46,7 +46,7 @@ export const EducationalTips = () => {
   ];
 
   return (
-    <section className="py-20">
+    <section className="py-20" id="dicas">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 bg-secondary/10 text-secondary px-4 py-2 rounded-full mb-4 shadow-soft">

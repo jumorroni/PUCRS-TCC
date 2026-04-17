@@ -69,7 +69,7 @@ const ProfileSelection = () => {
   };
 
   return (
-    <div className="min-h-screen bg-muted/30">
+    <div className="min-h-screen bg-muted/30" id="selecionar-perfil">
       <Navbar />
       
       <main className="pt-24 pb-16">
@@ -148,7 +148,7 @@ const ProfileSelection = () => {
           {/* Continue Button */}
           <div className="flex flex-col items-center gap-4">
             <Button
-              variant="hero"
+              variant="Home"
               size="xl"
               disabled={!selectedProfile}
               onClick={handleContinue}

@@ -109,34 +109,6 @@ export const ImpactDashboard = () => {
             </Card>
           ))}
         </div>
-
-        <div className="mt-12 p-8 rounded-2xl bg-gradient-hero text-primary-foreground shadow-strong">
-          <div className="text-center max-w-3xl mx-auto">
-            <h3 className="text-3xl font-bold mb-4">
-              Cada ação conta!
-            </h3>
-            <p className="text-lg opacity-90 mb-6">
-              Juntos, já evitamos o equivalente a <strong>12.8 toneladas de CO₂</strong> na atmosfera. 
-              Isso é como plantar <strong>640 árvores</strong> ou tirar <strong>5 carros</strong> de circulação por um ano.
-            </p>
-            <div className="flex items-center justify-center gap-4 text-sm opacity-80">
-              <div className="flex items-center gap-2">
-                <Leaf className="w-4 h-4" />
-                <span>Sustentável</span>
-              </div>
-              <div className="w-1 h-1 rounded-full bg-primary-foreground" />
-              <div className="flex items-center gap-2">
-                <Heart className="w-4 h-4" />
-                <span>Solidário</span>
-              </div>
-              <div className="w-1 h-1 rounded-full bg-primary-foreground" />
-              <div className="flex items-center gap-2">
-                <Users className="w-4 h-4" />
-                <span>Comunitário</span>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );

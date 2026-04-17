@@ -34,7 +34,7 @@ export const DonationTypes = () => {
   ];
 
   return (
-    <section className="py-20 bg-muted/30">
+    <section className="py-20 bg-muted/30" id="doar">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
@@ -81,15 +81,6 @@ export const DonationTypes = () => {
               </CardContent>
             </Card>
           ))}
-        </div>
-
-        <div className="mt-12 text-center p-6 bg-background rounded-xl shadow-soft">
-          <p className="text-muted-foreground">
-            Não sabe qual opção escolher? 
-            <a href="#" className="text-primary font-medium hover:underline ml-1">
-              Veja nosso guia de classificação de alimentos
-            </a>
-          </p>
         </div>
       </div>
     </section>

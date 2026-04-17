@@ -107,7 +107,7 @@ e-mail: alex@mail.com e senha: 123@abc
 
 Ao fazer login, agora você pode adicionar alimentos, fazer pedidos, ver seus pedidos mais recentes e suas estatísticas.
 
-[Clique aqui para abrir o aplicativo em web](https://ju-morroni.github.io/#/) 
+[Clique aqui para abrir o aplicativo em web](http://192.168.0.28:8080/auth) 
 
 ### Protótipo
 

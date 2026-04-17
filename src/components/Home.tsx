@@ -1,14 +1,14 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Leaf, Users, TrendingDown } from "lucide-react";
-import heroImage from "@/assets/hero-food-sharing.jpg";
+import HomeImage from "@/assets/Home-food-sharing.jpg";
 
-export const Hero = () => {
+export const Home = () => {
   return (
-    <section className="relative min-h-[90vh] flex items-center overflow-hidden">
+    <section className="relative min-h-[90vh] flex items-center overflow-hidden" id="home">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
-          src={heroImage} 
+          src={HomeImage} 
           alt="Compartilhamento de alimentos"
           className="w-full h-full object-cover"
         />
@@ -36,7 +36,7 @@ export const Hero = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
-            <Button variant="hero" size="xl" className="group" onClick={() => window.location.href = '/selecionar-perfil'}>
+            <Button variant="Home" size="xl" className="group" onClick={() => window.location.href = '/selecionar-perfil'}>
               Começar agora
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Button>
